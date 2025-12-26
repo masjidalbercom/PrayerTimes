@@ -90,7 +90,7 @@ async function getTomorrowPrayerTimes() {
       let tomorrowsDate = `${currentYear}-${tomorrows_Month}-${tomorrows_Day}`;
 
       // Fetch the prayer times for tomorrow
-      const response = await fetch("./Json/CompleteTimes25.json");
+      const response = await fetch("./Json/CompleteTimes26.json");
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
@@ -173,7 +173,7 @@ async function getTomorrowPrayerTimes() {
 // Function to fetch and display today's prayer times
 async function getTodayPrayerTimes() {
   try {
-    const response = await fetch("./Json/CompleteTimes25.json");
+    const response = await fetch("./Json/CompleteTimes26.json");
     if (!response.ok) {
       throw new Error("Network response was not ok");
     }
