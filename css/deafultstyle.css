@@ -1,0 +1,275 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  /* background-image: url(./Images/bgMain.jpg); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Montserrat, san-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* aligning vertically */
+  align-items: center;
+  /* align horizontally */
+  justify-content: center;
+  border-collapse: collapse;
+}
+
+table {
+  width: 20vw;
+  max-height: 10%;
+  max-width: 900px;
+  padding: 10px 5px;
+  border-radius: 10px;
+  border-collapse: collapse;
+  background-color: #ffffff26;
+  box-shadow: 0 10px 10px 10px rgb(0, 0, 0, 0.2);
+  font-family: sans-serif;
+  border-collapse: collapse;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+th {
+  background-color: #5f8586;
+  color: white;
+  padding: 0px 4px;
+}
+th,
+td {
+  padding: 1.2rem;
+  font-size: 1.4rem;
+}
+
+#currentTime,
+#imgLogo,
+#currentDate,
+#todaysFormattedDate,
+#currentDate_final {
+  background: rgba(255, 255, 255, 0);
+  font-size: 1rem;
+  color: #555;
+}
+#imgLogo a img {
+  width: 80px !important; /* Adding !important to force the style */
+  height: auto !important;
+}
+
+#sunrise-label,
+#jummahLabel {
+  text-align: left;
+}
+
+tbody {
+  background: rgba(255, 255, 255, 0.845);
+  color: #555;
+}
+
+.prayers * {
+  color: rgb(241, 241, 241);
+  text-align: left;
+}
+
+#iqama {
+  /* display: block; */
+  /* align-items: flex-end; */
+  text-align: center;
+}
+#fajr-iqama,
+#duhr-iqama,
+#asr-iqama,
+#maghrib-iqama,
+#isha-iqama,
+#sunrise-iqama {
+  background-color: #94c0ad52;
+  /* text-align: right; */
+  /* margin: right 100%; */
+}
+
+#adthan,
+#first-prayer,
+#fajr-adhan,
+#sunrise-time,
+#duhr-adhan,
+#asr-adhan,
+#maghrib-adhan,
+#isha-adhan {
+  text-align: end;
+  /* color: rgb(232, 166, 166); */
+}
+
+#sunrise,
+#fair-prayer,
+#duhr-prayer,
+#asr-prayer,
+#maghrib-prayer,
+#isha-prayer,
+#prayerLabel {
+  /* color:Red; */
+  text-align: left;
+}
+
+.jummahSection {
+  background-color: #9cbcb3;
+  text-align: center;
+  padding: 20;
+}
+
+/* Social Buttons */
+.button-container {
+  margin-top: 1px;
+  display: flex;
+  border-radius: 5px;
+  justify-content: space-between;
+  /*width: ;
+  */
+  background-color: #ffffff26;
+  /*box-shadow: 0 10px 10px 10px rgb(0, 0, 0, 0.2);
+  */
+  box-shadow: 0 10px 10px 10px rgb(0, 0, 0, 0.2);
+  /* padding: 0.5rem 0.1rem; */
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+button {
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: #f3f3f3;
+  background-color: #5f8586;
+  outline: none;
+  margin: 3px;
+  padding: 0.3rem 0.3rem;
+  /* box-shadow: 0 0.3rem rgba(121, 121, 121, 0.6); */
+
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+}
+button:hover {
+  filter: brightness(110%);
+  -webkit-filter: brightness(110%);
+}
+
+button:active {
+  transform: translate(0, 0.3rem);
+  box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: flex;
+}
+
+/* Social Icons */
+.downloadPrayerCalendarButton {
+  color: rgb(255, 245, 245);
+}
+
+.downloadPrayerCalendarButton {
+  background: radial-gradient(circle farthest-corner at 35% 90%, #f3af31, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #ffa500, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #f3c267, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #ffa500, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 0, #f3c060, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #ffa500, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #b38126, transparent), linear-gradient(#ff992b, #ffa500 30%, #ff992b 70%, #ff992b 100%);
+}
+
+.downloadPrayerCalendarButton:hover {
+  background: radial-gradient(circle farthest-corner at 35% 90%, #ffa500, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #ffa500, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #ffa500, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #ffa500, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 0, #ffa500, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #ffa500, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #ffa500, transparent), linear-gradient(#ff992b, #ffa500 30%, #ff992b 70%, #ff992b 100%);
+  background-color: #333; /* Darken the background color on hover */
+}
+
+.instagram-button {
+  /* border-radius: 10px; */
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+.instagram-button:hover {
+  color: white;
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  background-color: #333;
+}
+
+.whatsapp-button {
+  background: radial-gradient(circle farthest-corner at 35% 90%, #25d366, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #25d366, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #25d366, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #25d366, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 0, #25d366, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #25d366, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #25d366, transparent), linear-gradient(#128c7e, #075e54 30%, #075e54 70%, #128c7e 100%);
+}
+
+.whatsapp-button:hover {
+  background: radial-gradient(circle farthest-corner at 35% 90%, #25d366, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #25d366, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #25d366, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #25d366, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 0, #25d366, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #25d366, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #25d366, transparent), linear-gradient(#128c7e, #075e54 30%, #075e54 70%, #128c7e 100%);
+  background-color: #333; /* Darken the background color on hover */
+}
+
+.facebook-button {
+  background: radial-gradient(circle farthest-corner at 35% 90%, #3b5998, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #3b5998, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #3b5998, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #3b5998, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 0, #3b5998, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #3b5998, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #3b5998, transparent), linear-gradient(#355089, #1b2a4d 30%, #1b2a4d 70%, #355089 100%);
+}
+
+.facebook-button:hover {
+  background: radial-gradient(circle farthest-corner at 35% 90%, #3b5998, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #3b5998, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #3b5998, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #3b5998, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 0, #3b5998, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #3b5998, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #3b5998, transparent), linear-gradient(#355089, #1b2a4d 30%, #1b2a4d 70%, #355089 100%);
+  background-color: #333; /* Darken the background color on hover */
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    border-collapse: collapse;
+    border: none; /* Removes borders from the cells */
+  }
+
+  th,
+  td {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  table {
+    width: 20vw;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    border-collapse: collapse;
+    border: none; /* Removes borders from the cells */
+  }
+  th,
+  td {
+    border-collapse: collapse;
+    border: none; /* Removes borders from the cells */
+
+    padding: 1rem;
+    font-size: 1rem;
+    /* color: red; */
+  }
+  table {
+    /* width: 20vw; */
+  }
+}

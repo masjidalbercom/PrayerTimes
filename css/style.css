@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  /* background-color: rgba(158, 109, 109, 0.652); */
+
+  /* background-image: url(bgNight.jpg); */
+  /* background-image: url(../Images/bgMain.jpg); */
+  /* background-image: url(bgAsr.jpg); */
+
+  background-position: center;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #5e5b5b;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* aligning vertically */
+  align-items: center;
+  /* align horizontally */
+  justify-content: center;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100vw;
+  max-height: 60%;
+  max-width: 500px;
+  padding: 10px 5px;
+  border-radius: 10px;
+  border-collapse: collapse;
+  background-color: #ffffff26;
+  box-shadow: 0 10px 10px 10px rgb(0, 0, 0, 0.2);
+  font-family: sans-serif;
+  border-collapse: collapse;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+th {
+  background-color: #5f8586a9;
+  color: #eee;
+  /* padding:0px 4px; */
+}
+th,
+td,
+#nextTime {
+  padding: 1.2rem;
+  font-size: 1.4rem;
+}
+
+#imgLogo img {
+  /* width: 5vw; */
+  /* border: 1px solid red; */
+  /* height: 100; */
+}
+
+#currentTime,
+#imgLogo,
+#currentDate {
+  background: rgba(255, 255, 255, 0);
+  color: #eee;
+}
+
+tbody {
+  background: rgba(238, 238, 238, 0.881);
+  color: #555;
+}
+
+.prayers * {
+  color: rgb(241, 241, 241);
+  text-align: left;
+}
+
+#iqama {
+  /* display: block; */
+  /* align-items: flex-end; */
+  text-align: center;
+}
+#fajr-iqama,
+#duhr-iqama,
+#asr-iqama,
+#maghrib-iqama,
+#isha-iqama,
+#sunrise-iqama {
+  background-color: #94c0ad52;
+  /* text-align: right; */
+  /* margin: right 100%;; */
+}
+
+.addIqamaGreen {
+  background-color: #94c0ade2;
+  /* padding:10px; */
+  /* border:1px solid green; */
+}
+
+.removeIqamaGreen {
+  background-color: none;
+}
+
+.nextPrayer {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  max-height: 10%;
+  max-width: 90vw;
+  margin: 1rem;
+  -o-border-radius: 10px;
+  background: rgba(255, 255, 255, 0.27);
+  color: rgb(254, 254, 254);
+  box-shadow: 0 10px 10px 10px rgb(0, 0, 0, 0.2);
+  font-family: sans-serif;
+  border-collapse: collapse;
+  padding: 1.1rem;
+  font-size: 1.2rem;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+#adthan,
+#first-prayer,
+#fajr-adhan,
+#sunrise-time,
+#duhr-adhan,
+#asr-adhan,
+#maghrib-adhan,
+#isha-adhan {
+  text-align: end;
+}
+
+#sunrise-label,
+#fair-prayer,
+#duhr-prayer,
+#asr-prayer,
+#maghrib-prayer,
+#isha-prayer {
+  /* color:Red; */
+  text-align: left;
+}
+
+.jummahSection {
+  background-color: #9cbcb3;
+  text-align: center;
+}
+#jummahLabel {
+  text-align: left;
+}
+
+.indicator {
+  background: rgba(246, 176, 176, 0.997);
+  color: rgb(254, 254, 254);
+  /* box-shadow: 4px 44px 44px 14px rgba(94, 94, 94, 0.348); */
+  /* box-shadow: 10px 5px 5px rgb(66, 66, 66); */
+}
+
+.disableColor {
+  background: red;
+}
+
+.top {
+  /* border:1px solid red; */
+  background: rgba(255, 255, 255, 0);
+}
+
+#hirjiDate {
+  color: rgb(233, 233, 233);
+  /* background: #94c0ad52; */
+  border-bottom: #555 1px double;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  th,
+  td,
+  #hirjiDate {
+    padding: 0.6rem;
+    font-size: 1.2rem;
+    /* color:#555; */
+  }
+  #imgLogo img {
+    width: 15vw;
+    /* border: 1px solid red; */
+  }
+  table {
+    width: auto;
+  }
+
+  /* @media screen and (min-width: 600px)
+{
+    thead{
+        display: none;
+    }
+
+    td{
+      display: flex;  
+    }
+    td:first-child{
+        background-color: rgb(65, 103, 61);
+        color: white;
+        text-align: center;
+    }
+    td:nth-child(2)::before{
+        content: "Adhan: ";
+    }
+    td:nth-child(3)::before{
+        content: "Iqama: ";
+    }
+
+
+    td{
+        text-align: right;
+    }
+    td::before{
+        float: left;
+        margin-right: 3rem;
+        font-weight: bold;
+    }
+} */
+}
