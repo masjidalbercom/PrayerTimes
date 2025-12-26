@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- <meta http-equiv="refresh" content="30"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AlBerr Mosque Prayer Times</title>
+  <link rel="stylesheet" href="./css/deafultstyle.css">
+  <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=https://www.masjidalber.com/" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+  <!-- <div class="nextPrayer">
+    dd
+  </div> -->
+
+  <!-- <div class="button-container">
+      <button id="button1">⬅️</button>
+      <button id="button2">➡️</button>
+    </div> -->
+
+
+  <table>
+    <thead>
+
+      <tr class="">
+        <th id="currentTime"></th>
+        <th id="imgLogo">
+
+          <a href="https://www.masjidalber.com/" target="_blank"><img src="./Images/logo-good.png" alt="" srcset=""></a>
+        </th>
+
+        <th id="currentDate"></th>
+
+
+      </tr>
+
+
+
+      <tr class="prayers">
+
+        <th id="prayerLabel">Prayer</th>
+        <th id="adthan">Adhan</th>
+        <th id="iqama">Iqama</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Fajr -->
+      <tr>
+        <td id="fair-prayer"><span>Fajr</td>
+        <td id="fajr-adhan"></td>
+        <td id="fajr-iqama"></td>
+      </tr>
+      <!-- Sunrise -->
+      <tr>
+        <td id="sunrise-label">Sunrise</td>
+        <td id="sunrise-time"></td>
+        <td id="sunrise-iqama">_____</td>
+      </tr>
+      <!-- Duhr -->
+      <tr>
+        <td id="duhr-prayer">Duhr</td>
+        <td id="duhr-adhan"></td>
+        <td id="duhr-iqama"></td>
+      </tr>
+      <!-- Asr -->
+      <tr>
+        <td id="asr-prayer">Asr</td>
+        <td id="asr-adhan"></td>
+        <td id="asr-iqama"></td>
+      </tr>
+
+      <!-- Maghreb -->
+      <tr>
+        <td id="maghrib-prayer">Maghrib</td>
+        <td id="maghrib-adhan"></td>
+        <td id="maghrib-iqama"></td>
+      </tr>
+
+      <!-- Isha -->
+      <tr class="ishaBox">
+        <td id="isha-prayer">Isha</td>
+        <td id="isha-adhan"></td>
+        <td id="isha-iqama"></td>
+      </tr>
+
+      <tr class="jummahSection">
+        <td id="jummahLabel" colspan=1>1<sup>st</sup>Jumu'ah</td>
+        <td id="first-prayer">12:35 PM</td>
+        <td>_____</td>
+
+      </tr>
+      <tr class="jummahSection">
+        <td id="jummahLabel" colspan=1>2<sup>nd</sup>Jumu'ah</td>
+        <td id="first-prayer">1:30 PM</td>
+        <td>_____</td>
+
+      </tr>
+    </tbody>
+
+  </table>
+
+  <!-- <button id="toggleBtn" class="toggleButton" type="submit">Ramadan Times</button> -->
+
+  <!-- Button Container -->
+
+  <div class="button-container">
+
+    <button class="downloadPrayerCalendarButton" onclick="window.open('https://drive.google.com/file/d/1pUbhHROhNhFCgcr_RtJyylg265D7PVtV/view?usp=sharing'
+                ,'_blank')">
+      <i class=" fas fa-download">
+
+      </i>
+    </button>
+
+    <button class="instagram-button hide" id="instagram">
+      <i class="fab fa-instagram"> </i>
+    </button>
+
+    <button class="whatsapp-button" id="whatsapp">
+      <i class="fab fa-whatsapp"> </i>
+    </button>
+
+    <button class="facebook-button hide" id="facebook">
+      <i class="fab fa-facebook"> </i>
+    </button>
+
+
+    <!-- <button id="button2">Next Prayer In:<i class="fa-solid fa-arrow-right"></i> </button> -->
+    <!-- <button id="tomorrowButton">Next Day <i class=" fa-solid fa-arrow-right"></i> </button> -->
+
+    <button id="tomorrowButton" class="button">Next Day <i class="fa-solid fa-arrow-right"></i>
+      <!-- <i class="fa-solid fa-arrow-down-to-line"></i> -->
+    </button>
+
+  </div>
+
+
+
+  </form>
+
+
+  <script type="text/javascript" src="./JS/currentMain.js"></script>
+
+</body>
+
+</html>
