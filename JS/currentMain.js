@@ -134,52 +134,62 @@ async function toggleNextDay() {
   updateCurrentTime();
 }
 
-// ---------- WhatsApp ----------
+// ---------- WhatsApp (FINAL FULL VERSION) ----------
 whatsappButton.addEventListener("click", () => {
   if (!selectedPrayer) return;
 
   const dateObj = new Date();
   if (showNextDay) dateObj.setDate(dateObj.getDate() + 1);
 
-  const links = [
-    "https://masjidalbercom.github.io/PrayerTimes/",
-    "https://masjidalber.com/"
-  ];
-
   const msg = `
-📢 Assalamu Alaikum Everyone, today's prayer time is as follows:
+📢 Assalamu Alaikum Everyone
+🕌 Masjid Al-Berr – Windsor
+
 📅 Date: ${formatNiceDate(dateObj)}
 
-➡️الفجر|Fajr
+➡️ الفجر | Fajr
 Adhan: ${selectedPrayer.FajrAthan}
 Iqama: ${selectedPrayer.FajrIqama}
 
-➡️الظهر|Duhr
+➡️ الظهر | Duhr
 Adhan: ${selectedPrayer.DuhrAthan}
 Iqama: ${selectedPrayer.DuhrIqama}
 
-➡️العصر|Asr
+➡️ العصر | Asr
 Adhan: ${selectedPrayer.AsrAthan}
 Iqama: ${selectedPrayer.AsrIqama}
 
-➡️المغرب|Maghrib
+➡️ المغرب | Maghrib
 Adhan: ${selectedPrayer.MaghribAthan}
 Iqama: ${selectedPrayer.MaghribIqama}
 
-➡️العشاء|Isha
+➡️ العشاء | Isha
 Adhan: ${selectedPrayer.IshaAthan}
 Iqama: ${selectedPrayer.IshaIqama}
 
-🔗 Links:
-${links.join("\n")}
+━━━━━━━━━━━━━━
+🔗 Useful Links | روابط مهمة
+
+🕌 Prayer Times | مواقيت الصلاة  
+https://masjidalbercom.github.io/PrayerTimes/
+
+🌐 Website | الموقع الإلكتروني  
+https://masjidalber.com/
+
+💳 Donation | للتبرع  
+https://ca.mohid.co/on/windsor/abm/masjid/online/donation
+━━━━━━━━━━━━━━
+
+May Allah accept your prayers 🤲
   `.trim();
 
-  // Most reliable (desktop + mobile browsers)
+  // Works on desktop & mobile
   window.open(`https://wa.me/?text=${encodeURIComponent(msg)}`, "_blank");
 
-  // If you prefer WhatsApp app scheme, use this instead:
+  // If you want WhatsApp app only, use this instead:
   // window.open(`whatsapp://send?text=${encodeURIComponent(msg)}`, "_blank");
 });
+
 
 // ---------- Events ----------
 tomorrowButton.addEventListener("click", toggleNextDay);
