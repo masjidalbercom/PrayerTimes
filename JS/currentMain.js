@@ -143,7 +143,7 @@ whatsappButton.addEventListener("click", () => {
 
   const links = [
     "https://masjidalbercom.github.io/PrayerTimes/",
-    "https://masjidalbercom"
+    "https://masjidalber.com/"
   ];
 
   const msg = `
