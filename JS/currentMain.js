@@ -137,6 +137,11 @@ whatsappButton.addEventListener("click", () => {
 
   const dateObj = new Date();
   if (showNextDay) dateObj.setDate(dateObj.getDate() + 1);
+   
+  const links = [
+    "https://masjidalbercom.github.io/PrayerTimes/",
+    "https://masjidalbercom"
+  ];
 
   const msg = `
 📢 Assalamu Alaikum Everyone, today's prayer time is as follows:
@@ -163,8 +168,14 @@ Adhan: ${selectedPrayer.IshaAthan}
 Iqama: ${selectedPrayer.IshaIqama}
   `.trim();
 
-  window.open(`whatsapp://send?text=${encodeURIComponent(msg)}`, "_blank");
+🔗 Links:
+${links.join("\n")}
+  `.trim();
+
+  window.open(`https://wa.me/?text=${encodeURIComponent(msg)}`, "_blank");
 });
+ // --- window.open(`whatsapp://send?text=${encodeURIComponent(msg)}`, "_blank");---
+// --- });
 
 // ---------- Events ----------
 tomorrowButton.addEventListener("click", toggleNextDay);
