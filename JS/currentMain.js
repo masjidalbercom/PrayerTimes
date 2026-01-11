@@ -3,7 +3,7 @@ const currentTimeID = document.getElementById("currentTime");
 const currentDate_ID = document.getElementById("currentDate");
 const tomorrowButton = document.getElementById("tomorrowButton");
 const tomorrowButton_iconElement = tomorrowButton.querySelector("i");
-const whatsappButton = document.getElementById("whatsapp");CompleteTimes26
+const whatsappButton = document.getElementById("whatsapp");
 const tomorrowPrayerTimes = document.getElementById("tomorrowPrayerTimes");
 const todayPrayerTimes = document.getElementById("todayPrayerTimes");
 
