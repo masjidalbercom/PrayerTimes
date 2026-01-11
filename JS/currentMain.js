@@ -1,5 +1,8 @@
 /* ================================
-   CLEAN PRAYER TIMES SCRIPT (MATCHING YOUR JSON)
+   CLEAN PRAYER TIMES SCRIPT (FINAL WORKING)
+   - Loads today/tomorrow from your JSON
+   - Updates clock + background
+   - Sends WhatsApp message + 2 links (clickable)
 ==================================*/
 
 // ---------- Elements ----------
@@ -60,7 +63,7 @@ function updateCurrentTime() {
   currentDate_ID.textContent = now.toLocaleDateString("en-US");
 }
 
-// ---------- Background (simple & stable) ----------
+// ---------- Background ----------
 function updateBackgroundBasedOnTime() {
   const hour = new Date().getHours(); // 0-23
 
@@ -131,13 +134,13 @@ async function toggleNextDay() {
   updateCurrentTime();
 }
 
-// ---------- WhatsApp (ONE listener only) ----------
+// ---------- WhatsApp ----------
 whatsappButton.addEventListener("click", () => {
   if (!selectedPrayer) return;
 
   const dateObj = new Date();
   if (showNextDay) dateObj.setDate(dateObj.getDate() + 1);
-   
+
   const links = [
     "https://masjidalbercom.github.io/PrayerTimes/",
     "https://masjidalbercom"
@@ -166,30 +169,28 @@ Iqama: ${selectedPrayer.MaghribIqama}
 ➡️العشاء|Isha
 Adhan: ${selectedPrayer.IshaAthan}
 Iqama: ${selectedPrayer.IshaIqama}
-  `.trim();
 
 🔗 Links:
 ${links.join("\n")}
   `.trim();
 
+  // Most reliable (desktop + mobile browsers)
   window.open(`https://wa.me/?text=${encodeURIComponent(msg)}`, "_blank");
+
+  // If you prefer WhatsApp app scheme, use this instead:
+  // window.open(`whatsapp://send?text=${encodeURIComponent(msg)}`, "_blank");
 });
- // --- window.open(`whatsapp://send?text=${encodeURIComponent(msg)}`, "_blank");---
-// --- });
 
 // ---------- Events ----------
 tomorrowButton.addEventListener("click", toggleNextDay);
 
 // ---------- INIT ----------
 (async function init() {
-  // load today prayer times
   await loadPrayerFor(new Date());
 
-  // start time updates (correct)
   updateCurrentTime();
   setInterval(updateCurrentTime, 1000);
 
-  // start background updates (correct)
   updateBackgroundBasedOnTime();
   setInterval(updateBackgroundBasedOnTime, 60 * 1000);
 })();
