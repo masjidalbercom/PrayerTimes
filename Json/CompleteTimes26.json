@@ -916,7 +916,7 @@
         "Day": "Wednesday",
         "Hijri": "01/09/1447 (RAM)",
         "FajrAthan": "5:58 AM",
-        "FajrIqama": "6:30 AM",
+        "FajrIqama": "6:08 AM",
         "Sunrise": "7:21 AM",
         "DuhrAthan": "12:46 PM",
         "DuhrIqama": "1:00 PM",
@@ -925,7 +925,7 @@
         "MaghribAthan": "6:12 PM",
         "MaghribIqama": "6:19 PM",
         "IshaAthan": "7:26 PM",
-        "IshaIqama": "7:45 PM",
+        "IshaIqama": "7:35 PM",
         "Time Change": ""
     },
     {
@@ -933,7 +933,7 @@
         "Day": "Thursday",
         "Hijri": "02/09/1447 (RAM)",
         "FajrAthan": "5:57 AM",
-        "FajrIqama": "6:30 AM",
+        "FajrIqama": "6:07 AM",
         "Sunrise": "7:20 AM",
         "DuhrAthan": "12:46 PM",
         "DuhrIqama": "1:00 PM",
@@ -942,7 +942,7 @@
         "MaghribAthan": "6:13 PM",
         "MaghribIqama": "6:20 PM",
         "IshaAthan": "7:28 PM",
-        "IshaIqama": "7:45 PM",
+        "IshaIqama": "7:38 PM",
         "Time Change": ""
     },
     {
@@ -950,7 +950,7 @@
         "Day": "Friday",
         "Hijri": "03/09/1447 (RAM)",
         "FajrAthan": "5:55 AM",
-        "FajrIqama": "6:30 AM",
+        "FajrIqama": "6:05 AM",
         "Sunrise": "7:18 AM",
         "DuhrAthan": "12:46 PM",
         "DuhrIqama": "1:00 PM",
@@ -959,7 +959,7 @@
         "MaghribAthan": "6:14 PM",
         "MaghribIqama": "6:21 PM",
         "IshaAthan": "7:29 PM",
-        "IshaIqama": "7:45 PM",
+        "IshaIqama": "7:39 PM",
         "Time Change": ""
     },
     {
@@ -967,7 +967,7 @@
         "Day": "Saturday",
         "Hijri": "04/09/1447 (RAM)",
         "FajrAthan": "5:54 AM",
-        "FajrIqama": "6:30 AM",
+        "FajrIqama": "6:04 AM",
         "Sunrise": "7:17 AM",
         "DuhrAthan": "12:46 PM",
         "DuhrIqama": "1:00 PM",
@@ -976,7 +976,7 @@
         "MaghribAthan": "6:15 PM",
         "MaghribIqama": "6:22 PM",
         "IshaAthan": "7:30 PM",
-        "IshaIqama": "7:45 PM",
+        "IshaIqama": "7:40 PM",
         "Time Change": ""
     },
     {
@@ -984,7 +984,7 @@
         "Day": "Sunday",
         "Hijri": "05/09/1447 (RAM)",
         "FajrAthan": "5:53 AM",
-        "FajrIqama": "6:30 AM",
+        "FajrIqama": "6:03 AM",
         "Sunrise": "7:15 AM",
         "DuhrAthan": "12:46 PM",
         "DuhrIqama": "1:00 PM",
@@ -993,7 +993,7 @@
         "MaghribAthan": "6:17 PM",
         "MaghribIqama": "6:24 PM",
         "IshaAthan": "7:31 PM",
-        "IshaIqama": "7:45 PM",
+        "IshaIqama": "7:41 PM",
         "Time Change": ""
     },
     {
@@ -1001,7 +1001,7 @@
         "Day": "Monday",
         "Hijri": "06/09/1447 (RAM)",
         "FajrAthan": "5:51 AM",
-        "FajrIqama": "6:30 AM",
+        "FajrIqama": "6:01 AM",
         "Sunrise": "7:14 AM",
         "DuhrAthan": "12:46 PM",
         "DuhrIqama": "1:00 PM",
@@ -1010,7 +1010,7 @@
         "MaghribAthan": "6:18 PM",
         "MaghribIqama": "6:25 PM",
         "IshaAthan": "7:32 PM",
-        "IshaIqama": "7:45 PM",
+        "IshaIqama": "7:42 PM",
         "Time Change": ""
     },
     {
@@ -1018,7 +1018,7 @@
         "Day": "Tuesday",
         "Hijri": "07/09/1447 (RAM)",
         "FajrAthan": "5:50 AM",
-        "FajrIqama": "6:30 AM",
+        "FajrIqama": "6:00 AM",
         "Sunrise": "7:12 AM",
         "DuhrAthan": "12:45 PM",
         "DuhrIqama": "1:00 PM",
@@ -1027,7 +1027,7 @@
         "MaghribAthan": "6:19 PM",
         "MaghribIqama": "6:26 PM",
         "IshaAthan": "7:33 PM",
-        "IshaIqama": "7:45 PM",
+        "IshaIqama": "7:43 PM",
         "Time Change": ""
     },
     {
@@ -1035,7 +1035,7 @@
         "Day": "Wednesday",
         "Hijri": "08/09/1447 (RAM)",
         "FajrAthan": "5:48 AM",
-        "FajrIqama": "6:30 AM",
+        "FajrIqama": "5:58 AM",
         "Sunrise": "7:10 AM",
         "DuhrAthan": "12:45 PM",
         "DuhrIqama": "1:00 PM",
@@ -1052,7 +1052,7 @@
         "Day": "Thursday",
         "Hijri": "09/09/1447 (RAM)",
         "FajrAthan": "5:47 AM",
-        "FajrIqama": "6:30 AM",
+        "FajrIqama": "5:57 AM",
         "Sunrise": "7:09 AM",
         "DuhrAthan": "12:45 PM",
         "DuhrIqama": "1:00 PM",
@@ -1061,7 +1061,7 @@
         "MaghribAthan": "6:21 PM",
         "MaghribIqama": "6:28 PM",
         "IshaAthan": "7:36 PM",
-        "IshaIqama": "7:45 PM",
+        "IshaIqama": "7:46 PM",
         "Time Change": ""
     },
     {
@@ -1069,7 +1069,7 @@
         "Day": "Friday",
         "Hijri": "10/09/1447 (RAM)",
         "FajrAthan": "5:45 AM",
-        "FajrIqama": "6:30 AM",
+        "FajrIqama": "5:55 AM",
         "Sunrise": "7:07 AM",
         "DuhrAthan": "12:45 PM",
         "DuhrIqama": "1:00 PM",
@@ -1078,7 +1078,7 @@
         "MaghribAthan": "6:23 PM",
         "MaghribIqama": "6:30 PM",
         "IshaAthan": "7:37 PM",
-        "IshaIqama": "7:45 PM",
+        "IshaIqama": "7:47 PM",
         "Time Change": ""
     },
     {
@@ -1086,7 +1086,7 @@
         "Day": "Saturday",
         "Hijri": "11/09/1447 (RAM)",
         "FajrAthan": "5:44 AM",
-        "FajrIqama": "6:15 AM",
+        "FajrIqama": "5:54 AM",
         "Sunrise": "7:06 AM",
         "DuhrAthan": "12:45 PM",
         "DuhrIqama": "1:00 PM",
@@ -1095,7 +1095,7 @@
         "MaghribAthan": "6:24 PM",
         "MaghribIqama": "6:31 PM",
         "IshaAthan": "7:38 PM",
-        "IshaIqama": "8:00 PM",
+        "IshaIqama": "7:48 PM",
         "Time Change": ""
     },
     {
@@ -1103,7 +1103,7 @@
         "Day": "Sunday",
         "Hijri": "12/09/1447 (RAM)",
         "FajrAthan": "5:42 AM",
-        "FajrIqama": "6:15 AM",
+        "FajrIqama": "5:52 AM",
         "Sunrise": "7:04 AM",
         "DuhrAthan": "12:44 PM",
         "DuhrIqama": "1:00 PM",
@@ -1112,7 +1112,7 @@
         "MaghribAthan": "6:25 PM",
         "MaghribIqama": "6:32 PM",
         "IshaAthan": "7:39 PM",
-        "IshaIqama": "8:00 PM",
+        "IshaIqama": "7:49 PM",
         "Time Change": ""
     },
     {
@@ -1120,7 +1120,7 @@
         "Day": "Monday",
         "Hijri": "13/09/1447 (RAM)",
         "FajrAthan": "5:40 AM",
-        "FajrIqama": "6:15 AM",
+        "FajrIqama": "5:50 AM",
         "Sunrise": "7:03 AM",
         "DuhrAthan": "12:44 PM",
         "DuhrIqama": "1:00 PM",
@@ -1129,7 +1129,7 @@
         "MaghribAthan": "6:26 PM",
         "MaghribIqama": "6:33 PM",
         "IshaAthan": "7:41 PM",
-        "IshaIqama": "8:00 PM",
+        "IshaIqama": "7:51 PM",
         "Time Change": ""
     },
     {
@@ -1137,7 +1137,7 @@
         "Day": "Tuesday",
         "Hijri": "14/09/1447 (RAM)",
         "FajrAthan": "5:39 AM",
-        "FajrIqama": "6:15 AM",
+        "FajrIqama": "5:49 AM",
         "Sunrise": "7:01 AM",
         "DuhrAthan": "12:44 PM",
         "DuhrIqama": "1:00 PM",
@@ -1146,7 +1146,7 @@
         "MaghribAthan": "6:28 PM",
         "MaghribIqama": "6:35 PM",
         "IshaAthan": "7:42 PM",
-        "IshaIqama": "8:00 PM",
+        "IshaIqama": "7:52 PM",
         "Time Change": ""
     },
     {
@@ -1154,7 +1154,7 @@
         "Day": "Wednesday",
         "Hijri": "15/09/1447 (RAM)",
         "FajrAthan": "5:37 AM",
-        "FajrIqama": "6:15 AM",
+        "FajrIqama": "5:47 AM",
         "Sunrise": "6:59 AM",
         "DuhrAthan": "12:44 PM",
         "DuhrIqama": "1:00 PM",
@@ -1163,7 +1163,7 @@
         "MaghribAthan": "6:29 PM",
         "MaghribIqama": "6:36 PM",
         "IshaAthan": "7:43 PM",
-        "IshaIqama": "8:00 PM",
+        "IshaIqama": "7:53 PM",
         "Time Change": ""
     },
     {
@@ -1171,7 +1171,7 @@
         "Day": "Thursday",
         "Hijri": "16/09/1447 (RAM)",
         "FajrAthan": "5:36 AM",
-        "FajrIqama": "6:15 AM",
+        "FajrIqama": "5:46 AM",
         "Sunrise": "6:58 AM",
         "DuhrAthan": "12:43 PM",
         "DuhrIqama": "1:00 PM",
@@ -1180,7 +1180,7 @@
         "MaghribAthan": "6:30 PM",
         "MaghribIqama": "6:37 PM",
         "IshaAthan": "7:44 PM",
-        "IshaIqama": "8:00 PM",
+        "IshaIqama": "7:54 PM",
         "Time Change": ""
     },
     {
@@ -1188,7 +1188,7 @@
         "Day": "Friday",
         "Hijri": "17/09/1447 (RAM)",
         "FajrAthan": "5:34 AM",
-        "FajrIqama": "6:15 AM",
+        "FajrIqama": "5:44 AM",
         "Sunrise": "6:56 AM",
         "DuhrAthan": "12:43 PM",
         "DuhrIqama": "1:00 PM",
@@ -1197,7 +1197,7 @@
         "MaghribAthan": "6:31 PM",
         "MaghribIqama": "6:38 PM",
         "IshaAthan": "7:45 PM",
-        "IshaIqama": "8:00 PM",
+        "IshaIqama": "7:55 PM",
         "Time Change": ""
     },
     {
@@ -1205,7 +1205,7 @@
         "Day": "Saturday",
         "Hijri": "18/09/1447 (RAM)",
         "FajrAthan": "5:32 AM",
-        "FajrIqama": "6:00 AM",
+        "FajrIqama": "5:42 AM",
         "Sunrise": "6:54 AM",
         "DuhrAthan": "12:43 PM",
         "DuhrIqama": "1:00 PM",
@@ -1214,7 +1214,7 @@
         "MaghribAthan": "6:32 PM",
         "MaghribIqama": "6:39 PM",
         "IshaAthan": "7:46 PM",
-        "IshaIqama": "8:15 PM",
+        "IshaIqama": "7:56 PM",
         "Time Change": ""
     },
     {
@@ -1222,7 +1222,7 @@
         "Day": "*Sunday*",
         "Hijri": "19/09/1447 (RAM)",
          "FajrAthan": "6:29 AM",
-        "FajrIqama": "7:00 AM",
+        "FajrIqama": "6:39 AM",
         "Sunrise": "7:51 AM",
         "DuhrAthan": "1:42 PM",
         "DuhrIqama": "2:00 PM",
@@ -1231,7 +1231,7 @@
         "MaghribAthan": "7:35 PM",
         "MaghribIqama": "7:42 PM",
         "IshaAthan": "8:49 PM",
-        "IshaIqama": "9:15 PM",
+        "IshaIqama": "8:59 PM",
         "Time Change": ""
     },
     {
@@ -1239,7 +1239,7 @@
         "Day": "Monday",
         "Hijri": "20/09/1447 (RAM)",
         "FajrAthan": "6:29 AM",
-        "FajrIqama": "7:00 AM",
+        "FajrIqama": "6:39 AM",
         "Sunrise": "7:51 AM",
         "DuhrAthan": "1:42 PM",
         "DuhrIqama": "2:00 PM",
@@ -1256,7 +1256,7 @@
         "Day": "Tuesday",
         "Hijri": "21/09/1447 (RAM)",
         "FajrAthan": "6:27 AM",
-        "FajrIqama": "7:00 AM",
+        "FajrIqama": "6:37 AM",
         "Sunrise": "7:49 AM",
         "DuhrAthan": "1:42 PM",
         "DuhrIqama": "2:00 PM",
@@ -1265,7 +1265,7 @@
         "MaghribAthan": "7:36 PM",
         "MaghribIqama": "7:43 PM",
         "IshaAthan": "8:50 PM",
-        "IshaIqama": "9:15 PM",
+        "IshaIqama": "9:00 PM",
         "Time Change": ""
     },
     {
@@ -1273,7 +1273,7 @@
         "Day": "Wednesday",
         "Hijri": "22/09/1447 (RAM)",
         "FajrAthan": "6:25 AM",
-        "FajrIqama": "7:00 AM",
+        "FajrIqama": "6:35 AM",
         "Sunrise": "7:48 AM",
         "DuhrAthan": "1:42 PM",
         "DuhrIqama": "2:00 PM",
@@ -1282,7 +1282,7 @@
         "MaghribAthan": "7:37 PM",
         "MaghribIqama": "7:44 PM",
         "IshaAthan": "8:51 PM",
-        "IshaIqama": "9:15 PM",
+        "IshaIqama": "9:01 PM",
         "Time Change": ""
     },
     {
@@ -1290,7 +1290,7 @@
         "Day": "Thursday",
         "Hijri": "23/09/1447 (RAM)",
         "FajrAthan": "6:24 AM",
-        "FajrIqama": "7:00 AM",
+        "FajrIqama": "6:34 AM",
         "Sunrise": "7:46 AM",
         "DuhrAthan": "1:42 PM",
         "DuhrIqama": "2:00 PM",
@@ -1299,7 +1299,7 @@
         "MaghribAthan": "7:38 PM",
         "MaghribIqama": "7:45 PM",
         "IshaAthan": "8:52 PM",
-        "IshaIqama": "9:15 PM",
+        "IshaIqama": "9:02 PM",
         "Time Change": ""
     },
     {
@@ -1307,7 +1307,7 @@
         "Day": "Friday",
         "Hijri": "24/09/1447 (RAM)",
         "FajrAthan": "6:22 AM",
-        "FajrIqama": "7:00 AM",
+        "FajrIqama": "6:32 AM",
         "Sunrise": "7:44 AM",
         "DuhrAthan": "1:41 PM",
         "DuhrIqama": "2:00 PM",
@@ -1316,7 +1316,7 @@
         "MaghribAthan": "7:39 PM",
         "MaghribIqama": "7:46 PM",
         "IshaAthan": "8:54 PM",
-        "IshaIqama": "9:15 PM",
+        "IshaIqama": "9:04 PM",
         "Time Change": ""
     },
     {
@@ -1324,7 +1324,7 @@
         "Day": "Saturday",
         "Hijri": "25/09/1447 (RAM)",
         "FajrAthan": "6:20 AM",
-        "FajrIqama": "6:45 AM",
+        "FajrIqama": "6:30 AM",
         "Sunrise": "7:43 AM",
         "DuhrAthan": "1:41 PM",
         "DuhrIqama": "2:00 PM",
@@ -1333,7 +1333,7 @@
         "MaghribAthan": "7:40 PM",
         "MaghribIqama": "7:47 PM",
         "IshaAthan": "8:55 PM",
-        "IshaIqama": "9:15 PM",
+        "IshaIqama": "9:05 PM",
         "Time Change": ""
     },
     {
@@ -1341,7 +1341,7 @@
         "Day": "Sunday",
         "Hijri": "26/09/1447 (RAM)",
         "FajrAthan": "6:18 AM",
-        "FajrIqama": "6:45 AM",
+        "FajrIqama": "6:28 AM",
         "Sunrise": "7:41 AM",
         "DuhrAthan": "1:41 PM",
         "DuhrIqama": "2:00 PM",
@@ -1350,7 +1350,7 @@
         "MaghribAthan": "7:42 PM",
         "MaghribIqama": "7:49 PM",
         "IshaAthan": "8:56 PM",
-        "IshaIqama": "9:15 PM",
+        "IshaIqama": "9:06 PM",
         "Time Change": ""
     },
     {
@@ -1358,7 +1358,7 @@
         "Day": "Monday",
         "Hijri": "27/09/1447 (RAM)",
         "FajrAthan": "6:16 AM",
-        "FajrIqama": "6:45 AM",
+        "FajrIqama": "6:26 AM",
         "Sunrise": "7:39 AM",
         "DuhrAthan": "1:41 PM",
         "DuhrIqama": "2:00 PM",
@@ -1367,7 +1367,7 @@
         "MaghribAthan": "7:43 PM",
         "MaghribIqama": "7:50 PM",
         "IshaAthan": "8:57 PM",
-        "IshaIqama": "9:15 PM",
+        "IshaIqama": "9:07 PM",
         "Time Change": ""
     },
     {
@@ -1375,7 +1375,7 @@
         "Day": "Tuesday",
         "Hijri": "28/09/1447 (RAM)",
         "FajrAthan": "6:15 AM",
-        "FajrIqama": "6:45 AM",
+        "FajrIqama": "6:25 AM",
         "Sunrise": "7:37 AM",
         "DuhrAthan": "1:40 PM",
         "DuhrIqama": "2:00 PM",
@@ -1384,7 +1384,7 @@
         "MaghribAthan": "7:44 PM",
         "MaghribIqama": "7:51 PM",
         "IshaAthan": "8:59 PM",
-        "IshaIqama": "9:15 PM",
+        "IshaIqama": "9:09 PM",
         "Time Change": ""
     },
     {
@@ -1392,7 +1392,7 @@
         "Day": "Wednesday",
         "Hijri": "29/09/1447 (RAM)",
         "FajrAthan": "6:13 AM",
-        "FajrIqama": "6:45 AM",
+        "FajrIqama": "6:23 AM",
         "Sunrise": "7:36 AM",
         "DuhrAthan": "1:40 PM",
         "DuhrIqama": "2:00 PM",
@@ -1401,7 +1401,7 @@
         "MaghribAthan": "7:45 PM",
         "MaghribIqama": "7:52 PM",
         "IshaAthan": "9:00 PM",
-        "IshaIqama": "9:15 PM",
+        "IshaIqama": "9:10 PM",
         "Time Change": ""
     },
     {
@@ -1409,7 +1409,7 @@
         "Day": "Thursday",
         "Hijri": "30/09/1447 (RAM)",
         "FajrAthan": "6:11 AM",
-        "FajrIqama": "6:45 AM",
+        "FajrIqama": "6:21 AM",
         "Sunrise": "7:34 AM",
         "DuhrAthan": "1:40 PM",
         "DuhrIqama": "2:00 PM",
@@ -1418,7 +1418,7 @@
         "MaghribAthan": "7:46 PM",
         "MaghribIqama": "7:53 PM",
         "IshaAthan": "9:01 PM",
-        "IshaIqama": "9:15 PM",
+        "IshaIqama": "9:11 PM",
         "Time Change": ""
     },
     {
