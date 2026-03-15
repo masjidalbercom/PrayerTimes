@@ -52,7 +52,6 @@ td {
   background: rgba(255, 255, 255, 0);
   color:  white;
   font-weight: bold;
-  font-size: 1.6rem;
 }
 #imgLogo a img {
   width: 80px !important; /* Adding !important to force the style */
